@@ -6,7 +6,7 @@ public class StringUtil {
         String result = "";
 
         for (int i = 0; i < times; i++) {
-            result = str + 3;
+            result += str;
         }
 
         return result;
